@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Karuna Export</title>
+<style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f8f9fa; color: #333; }
+    header { background: #023e8a; color: white; text-align: center; padding: 20px; }
+    header h1 { margin: 0; font-size: 2.5rem; }
+    header p { margin: 5px 0 0; font-size: 1.1rem; }
+    section { padding: 30px; max-width: 1100px; margin: auto; }
+    h2 { color: #023e8a; border-bottom: 2px solid #eee; padding-bottom: 5px; }
+    .products { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+    .product { background: white; padding: 15px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    .product img { width: 100%; border-radius: 10px; }
+    footer { background: #023e8a; color: white; text-align: center; padding: 15px; margin-top: 30px; }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>KARUNA EXPORT</h1>
+    <p>Exporters of Quality Agricultural Products</p>
+</header>
+
+<section>
+    <h2>About Us</h2>
+    <p>Karuna Export is a trusted supplier of premium agricultural products. We specialize in Vermi Compost, Mustard Oil Cake, Neem Oil Cake, and Coco Peat. Our commitment to quality and timely delivery has made us a preferred partner for global buyers.</p>
+</section>
+
+<section>
+    <h2>Our Products</h2>
+    <div class="products">
+        <div class="product">
+            <img src="vermi-compost.jpg" alt="Vermi Compost">
+            <h3>Vermi Compost</h3>
+            <p>Organic fertilizer rich in essential nutrients for plants.</p>
+        </div>
+        <div class="product">
+            <img src="mustard-oil-cake.jpg" alt="Mustard Oil Cake">
+            <h3>Mustard Oil Cake</h3>
+            <p>High-protein by-product used as animal feed and fertilizer.</p>
+        </div>
+        <div class="product">
+            <img src="neem-oil-cake.jpg" alt="Neem Oil Cake">
+            <h3>Neem Oil Cake</h3>
+            <p>Natural pesticide and soil conditioner.</p>
+        </div>
+        <div class="product">
+            <img src="coco-peat.jpg" alt="Coco Peat">
+            <h3>Coco Peat</h3>
+            <p>Eco-friendly growing medium for plants.</p>
+        </div>
+    </div>
+    <p><em>To add or remove products, copy or delete a <code>&lt;div class="product"&gt; ... &lt;/div&gt;</code> block above.</em></p>
+</section>
+
+<section>
+    <h2>Extra Company Details</h2>
+    <p>You can write any further information about your company here, such as certifications, trade history, or partnerships.</p>
+</section>
+
+<section>
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+    <p>Phone: +91-XXXXXXXXXX</p>
+</section>
+
+<footer>
+    <p>© 2025 Karuna Export | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
